@@ -3,8 +3,8 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${web_url}  http://127.0.0.1:5000/
-${email}    pradeep@gmail.com
-${password}     12345
+${email}    likhitha@gmail.com
+${password}     2000
 
 *** Test Cases ***
 User Registration test
@@ -31,7 +31,7 @@ Search Book test
     [Tags]  user
     click link  xpath=//html/body/nav/a[2]
     sleep  1s
-    input text  name:name   KGF
+    input text  name:name   sherlock
     sleep  1s
     click button  xpath=//html/body/div/div/div/form/table[1]/tbody/tr[2]/td[2]/button
     sleep  3s
